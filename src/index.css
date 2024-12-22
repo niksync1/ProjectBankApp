@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.testimonials-swiper {
+  padding-bottom: 4rem !important;
+}
+
+.testimonials-swiper .swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  background: #e2e8f0;
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+
+.testimonials-swiper .swiper-pagination-bullet-active {
+  background: #2563eb;
+  transform: scale(1.2);
+}
+
+.swiper-pagination {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.swiper-fade .swiper-slide {
+  opacity: 0 !important;
+  transition: opacity 0.5s ease;
+}
+
+.swiper-fade .swiper-slide-active {
+  opacity: 1 !important;
+}
